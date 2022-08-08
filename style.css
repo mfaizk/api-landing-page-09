@@ -8,146 +8,161 @@
   padding: 0;
 }
 
-
-.nav-bar{
+.nav-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: #4516fe;
   align-items: center;
   height: 7vh;
-  
 }
-.logo{
+.logo {
   margin-left: 100px;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 100px;
 }
 
-
-.nav-item{
+.nav-item {
   margin: 20px;
   color: #fff;
 }
-.nav-item-active{
+.nav-item-active {
   background-color: #fff;
   padding: 5px 10px 5px 10px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.header-section{
+.header-section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background-color: #4516fe;
   height: 40vh;
-
 }
-.header-text{
+.header-text {
   margin-left: 100px;
   color: #fff;
   font-size: 1.5em;
 }
 
-.header-image{
+.header-image {
   position: absolute;
   right: 0;
   top: 80px;
+  height: 400px;
+  width: 500px;
 }
-.companies{
+.companies {
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: center;
   height: 7vh;
-  margin-left:80px ;
+  margin-left: 80px;
 }
-.company-items{
+.company-items {
   text-decoration: none;
   color: #111;
   margin-left: 20px;
   margin-right: 20px;
   font-weight: bold;
-
 }
 
-
-.api{
+.api {
   display: flex;
   flex-direction: column;
   height: 40vh;
   justify-content: center;
 }
 
-.api-heading{
+.api-heading {
   margin-left: 50px;
   margin-bottom: 30px;
 }
-.cards{
+.cards {
   display: flex;
   flex-direction: row;
-
 }
 
-.card ,.card-active{
+.card,
+.card-active {
   margin-left: 50px;
 }
 
-.card-head-active{
+.card-head-active {
   color: #5a31fc;
 }
 
-.blog-heading{
+.blog-heading {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  
 }
-.blog-heading h4{
+.blog-heading h4 {
   margin-right: 50px;
   color: #4516fe;
 }
-.blog-heading h1{
+.blog-heading h1 {
   margin-left: 50px;
 }
 
-
-.blog-cards{
+.blog-cards {
   display: flex;
   flex-direction: row;
+  overflow-y: scroll;
 }
-.blog-card{
+.blog-card {
   display: flex;
   flex-direction: row;
   margin-left: 50px;
   margin-right: 50px;
-
 }
 
-.block-content-block{
-  padding:30px;
-  height: 75%;
-  box-shadow:  0px 0.5px 5px #888, 0px 0px 0px #888;
-
+.block-content-block {
+  padding: 30px;
+  height: 225px;
+  width: 200px;
+  box-shadow: 0px 0.5px 5px #888, 0px 0px 0px #888;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog-content h6 {
+  font-size: 80%;
+  /* background-color: orange; */
+}
+.blog-content h3 {
+  /* background-color: magenta; */
+  font-size: 100%;
+}
+.blog-content small {
+  /* background-color: orange; */
+  font-size: 70%;
 }
 
-.bottom-block{
+.bottom-block {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
 }
-.blog-author{
+.blog-author {
   margin-left: 10px;
+  font-size: 100%;
 }
 
-.faq-section{
+.faq-section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -156,26 +171,25 @@ nav{
   margin-top: 50px;
 }
 
-.faq-content{
+.faq-content {
   margin-left: 50px;
 }
 
-.faq-content h2{
+.faq-content h2 {
   font-size: 2rem;
-  
 }
 
-.faq-content h4{
+.faq-content h4 {
   color: #758283;
   margin-top: 20px;
 }
 
-.faq-content>h4+h4{
-  color: #242B2E;
+.faq-content > h4 + h4 {
+  color: #242b2e;
   margin-top: 30px;
 }
 
-.faq-content button{
+.faq-content button {
   margin-top: 20px;
   height: 30px;
   width: 100px;
@@ -185,7 +199,7 @@ nav{
   border-radius: 5px;
 }
 
-.download-section{
+.download-section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -193,19 +207,18 @@ nav{
   align-items: center;
 }
 
-.download-content{
+.download-content {
   margin-left: 50px;
 }
-.download-content span{
+.download-content span {
   font-weight: lighter;
 }
 
-.download-email{
+.download-email {
   margin-right: 100px;
 }
 
-.download-email>form>input{
-
+.download-email > form > input {
   width: 500px;
   height: 50px;
   border: none;
@@ -213,12 +226,12 @@ nav{
   background-color: #e9edff;
 }
 
-.download-email>form>input::placeholder{
+.download-email > form > input::placeholder {
   padding-left: 20px;
   color: #111;
 }
 
-.download-email>form>input+button{
+.download-email > form > input + button {
   position: relative;
   right: 158px;
   background-color: #5a31fc;
@@ -229,8 +242,7 @@ nav{
   color: #fff;
 }
 
-
-.footer-section{
+.footer-section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -239,12 +251,11 @@ nav{
   background-color: #4719fd;
 }
 
-.footer-left{
+.footer-left {
   margin-left: 50px;
-
 }
 
-.list{
+.list {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -252,43 +263,494 @@ nav{
   justify-content: space-around;
   align-items: center;
   color: #fff;
-
 }
 
-.line{
+.line {
   border-right: solid 1px;
   width: 80px;
- display: flex;
- align-items: center;
- justify-content: center;
- color: #fff;
- margin-left: 10px;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-left: 10px;
 }
 
-
-.footer-right-section{
+.footer-right-section {
   display: flex;
   flex-direction: column;
   width: 20vw;
   margin-right: 100px;
-  justify-content: center ;
+  justify-content: center;
   align-items: center;
 }
-.logos-list{
+.logos-list {
   display: flex;
-flex-direction: row;
-justify-content: center;
-margin-top: 10px;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
 }
 
-
-
-.footer-logos{
+.footer-logos {
   margin-left: 10px;
 }
 
-
-.footer-logo{
+.footer-logo {
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1280px) and (min-width: 786px) {
+  .header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #4516fe; */
+    /* background-color: orange; */
+    height: 40vh;
+  }
+  .header-text {
+    margin-left: 50px;
+    color: #fff;
+    font-size: 1em;
+  }
+
+  .header-image {
+    position: absolute;
+    right: 0;
+    top: 150px;
+    height: 300px;
+    width: 300px;
+  }
+
+  .api {
+    display: flex;
+    flex-direction: column;
+    height: 630px;
+    justify-content: center;
+    /* background-color: darkgreen; */
+  }
+
+  .api-heading {
+    margin-left: 50px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    /* background-color: magenta; */
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .card,
+  .card-active {
+    margin-left: 50px;
+  }
+
+  .card-head-active {
+    color: #5a31fc;
+  }
+  .companies {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 7vh;
+    margin-left: 10px;
+  }
+
+  .blog-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 0.8rem;
+  }
+  .blog-heading h4 {
+    margin-right: 50px;
+    color: #4516fe;
+  }
+  .blog-heading h1 {
+    margin-left: 50px;
+  }
+
+  .blog-cards {
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+    height: 220px;
+  }
+  .blog-card {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  .blog-image img {
+    height: 200px;
+  }
+
+  .block-content-block {
+    padding: 30px;
+    height: 140px;
+    width: 200px;
+    box-shadow: 0px 0.5px 5px #888, 0px 0px 0px #888;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog-content h6 {
+    font-size: 80%;
+    /* background-color: orange; */
+  }
+  .blog-content h3 {
+    /* background-color: magenta; */
+    font-size: 100%;
+  }
+  .blog-content small {
+    /* background-color: orange; */
+    font-size: 70%;
+  }
+
+  .bottom-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .blog-author {
+    margin-left: 10px;
+    font-size: 100%;
+  }
+
+  .faq-image img {
+    display: none;
+  }
+  .download-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .download-email > form > input {
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #e9edff;
+    padding-left: 20px;
+  }
+
+  .download-email > form > input + button {
+    position: relative;
+    right: 115px;
+    background-color: #5a31fc;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 40px;
+    color: #fff;
+  }
+
+  .list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    /* background-color: orange; */
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: #4516fe; */
+    /* background-color: orange; */
+    align-items: center;
+    height: 500px;
+  }
+  .logo {
+    margin-left: 0px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 0px;
+  }
+  .header-section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: #4516fe; */
+    /* background-color: magenta; */
+    height: 600px;
+  }
+  .header-text {
+    margin-left: 0px;
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 50px;
+  }
+  .header-image-container {
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-image {
+    position: static;
+
+    height: 15rem;
+    width: 15rem;
+    /* background-color: orange; */
+  }
+
+  .api {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    justify-content: center;
+    /* background-color: darkgreen; */
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    /* background-color: magenta; */
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .card,
+  .card-active {
+    margin-left: 50px;
+  }
+
+  .card-head-active {
+    color: #5a31fc;
+  }
+  .companies {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 50px;
+    margin-left: 0px;
+    overflow-x: scroll;
+    /* background-color: orange; */
+  }
+
+  .blog-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 0.8rem;
+  }
+  .blog-heading h4 {
+    display: none;
+  }
+  .blog-heading h1 {
+    margin-left: 0px;
+  }
+
+  .blog-cards {
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+    height: 220px;
+  }
+  .blog-card {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  .blog-image img {
+    height: 200px;
+  }
+
+  .block-content-block {
+    padding: 30px;
+    height: 140px;
+    width: 200px;
+    box-shadow: 0px 0.5px 5px #888, 0px 0px 0px #888;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog-content h6 {
+    font-size: 80%;
+    /* background-color: orange; */
+  }
+  .blog-content h3 {
+    /* background-color: magenta; */
+    font-size: 100%;
+  }
+  .blog-content small {
+    /* background-color: orange; */
+    font-size: 70%;
+  }
+
+  .bottom-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .blog-author {
+    margin-left: 10px;
+    font-size: 100%;
+  }
+
+  .faq-image img {
+    display: none;
+  }
+  .faq-content {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .faq-content h2 {
+    font-size: 1.5rem;
+  }
+  .faq-content h4 {
+    font-size: 0.8rem;
+  }
+  .download-section {
+    display: flex;
+    /* background-color: orange; */
+    height: 400px;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .download-content h1 {
+    font-size: 1.5rem;
+  }
+  .download-form {
+    /* background-color: blue; */
+    height: 200px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  .download-email > form > input {
+    width: 80%;
+    height: 50px;
+    border: none;
+
+    background-color: #e9edff;
+    padding-left: 20px;
+    margin-left: 0px;
+  }
+  .download-email > form > input::placeholder {
+    font-size: 3vw;
+  }
+
+  .download-email > form > input + button {
+    position: static;
+
+    background-color: #5a31fc;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 0.5rem;
+  }
+
+  .list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 150px;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    /* background-color: orange; */
+  }
+
+  .footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+    /* background-color: #4719fd; */
+    /* background-color: magenta; */
+    flex-wrap: wrap;
+  }
+
+  .footer-left {
+    margin-left: 50px;
+  }
+
+  .line {
+    border-right: solid 1px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-left: 10px;
+  }
+
+  .footer-right-section {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 150px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+  }
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    /* background-color: orange; */
+    height: 200px;
+  }
+  .logos-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    /* background-color: blue; */
+    height: 200px;
+  }
+
+  .footer-logos {
+    margin-left: 10px;
+  }
+
+  .footer-logo {
+    margin-bottom: 10px;
+  }
+}
+
